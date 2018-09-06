@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff');
+    src: url('cac_champagne.ttf') format('truetype');
+}
+@font-face {
+    font-family: Grunge;
+    src: url('1942.woff') format('woff');
+    src: url('1942.ttf') format('truetype');
+}
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('woff');
+    src: url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Melinda Chirila
+   Date:  9/6/2018 
+   
+   Filename: ph_styles.css
+
+*/
+/* Structural Styles */
+header{
+    background-color: black;
+
+}
+
+p {
+margin: 0px;
+padding-top:5px;
+padding-right:25px;
+padding-bottom: 25px;
+padding-left: 25px;
+}
+
+body > p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+address {
+    font-size: 0.9em;
+    text-align: center;
+}
+/* Navigation Styles */
+/* Section Styles */
+/* Description List Styles */
